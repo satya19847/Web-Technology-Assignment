@@ -1,0 +1,201 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgba(117, 201, 121, 0.837);
+    height: 120PX;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav{
+    font-family:Verdana, Geneva, Tahoma, serif;
+    font-weight:normal;
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 25px;
+    color: black;
+}
+section{
+    display: flex;
+    border-top: 2px solid black;
+}
+#leftsec{
+    width: 20%;
+    background-color: rgba(238, 200, 137, 0.741);
+    height:580PX;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.branch{
+    margin-left: 35px;
+    font-size: 30px;
+    color: rgb(5, 46, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100px;
+}
+#rightsec{
+    width: 80%;
+    background-color: rgb(61, 230, 182);
+    height: 580px;
+    display: flex;
+    flex-direction: column;        
+}
+.right{
+    font-family:"Fantasy";
+    
+}
+.right > img{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.right > h3{
+    font-size: 35px;
+    padding:10px;
+    color: rgb(168, 24, 24);
+    font-weight: 1000px;
+}
+.right >h1{
+    font-size: 50px;
+    padding: 5px;
+    color: rgb(143, 220, 20);
+}
+
+
+.login{
+    border: 30px solid black;
+    padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 500px;
+width: 400px;
+}
+#head{
+    padding: 10px; 
+    color: rgba(125, 15, 15, 0.752);
+    font-family:"Fantasy";
+    font-weight:bolder;
+    font-size: 50px;
+}
+#feild3{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.feild{
+    padding: 8px;
+}
+
+.registers{
+    background-color: rgb(208, 243, 203);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    font-size: large;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#gender{
+    display: inline-block;
+
+}
+#reghead{
+    font-family: "Fantasy";
+    font-weight: bolds;
+    color: rgb(134, 24, 168);
+    font-size: 60px;
+     padding: 10px;
+      display: flex;
+       justify-content: center;
+}
+.reg{
+    padding: 10px;
+}
+#reg3{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.Catalogue{
+    padding: 50px;
+    background-color: rgb(234, 192, 255);
+}
+
+.cse{
+    background-color: rgb(225, 134, 166);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sci{
+    padding: 10px;
+}
+#head1{
+    font-family:"Fantasy" ;
+    font-size: 50px;
+    color: rgb(30, 0, 139);
+padding: 30px;
+}
+.ece{
+    background-color: rgb(240, 136, 190);
+ font-size: 25px;
+ margin-left: 80px;   
+ font-weight: bold;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+
+#head2{
+    color: blue; 
+    padding-bottom: 30px; 
+    font-size: 50px;
+    font-family: "Dancing Script";
+}
+
+.eee{
+    font-size: 22px;
+    margin-left: 80px;
+    background-color: rgb(157, 90, 213);
+    font-weight: bold;
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+#head3{
+    font-size:50px ; 
+    padding-bottom: 30px; 
+    color: rgb(51, 43, 213);
+    font-family:"Fantasy";
+}
+
+.mech{
+    margin-left: 80px;
+font-size: 22px;
+font-weight: bold;
+background-color: rgb(235, 156, 82);
+display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+#head4{
+    font-size: 50px;
+    color: rgb(139, 0, 0);
+    padding-bottom: 30px;
+   font-family: "Fantasy";
+}
